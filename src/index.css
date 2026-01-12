@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark-900 text-white font-sans;
+}
+
+.glass-morphism {
+  @apply bg-white/10 backdrop-blur-lg border border-white/10 rounded-xl;
+}
